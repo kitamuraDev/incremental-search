@@ -22,7 +22,7 @@ const Header: VFC<Props> = memo((props) => {
         variant="flushed"
         placeholder="検索"
         w={{ base: "xs", sm: "md", md: "xl" }}
-        // mr={{ base: 5, md: 0 }}
+        mr={{ base: 5, md: 0 }}
         onChange={(e) => handleFilter(e)}
         ref={focusRef}
       />
