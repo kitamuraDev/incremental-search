@@ -1,4 +1,4 @@
-import { ChangeEvent, useCallback } from "react";
+import React, { ChangeEvent, useCallback } from "react";
 import { ChakraProvider, Spinner, VStack } from "@chakra-ui/react";
 
 import useFetch from "./hooks/useFetch";

@@ -1,5 +1,5 @@
 import { Flex, Input } from "@chakra-ui/react";
-import { memo, useEffect, useRef, VFC } from "react";
+import React, { memo, useEffect, useRef, VFC } from "react";
 import DarkModeToggleIcon from "./DarkModeToggleIcon";
 
 type Props = {
